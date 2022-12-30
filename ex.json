@@ -1,0 +1,22 @@
+{
+    "project_one": {
+        "image": "/image/hwhw.png",
+        "type": "Anilist"
+    },
+    "project_two": {
+        "image": "/image/sc.png",
+        "type": "student check"   
+    },
+    "project_three": {
+        "image": "/image/calc.png",
+        "type": "calcualtor"
+    },
+    "project_four": {
+        "image": "/image/op.png",
+        "type": "top чего-то"
+    },
+    "project_five": {
+        "image": "/image/ph.png",
+        "type": "Mobile site"
+    }
+}

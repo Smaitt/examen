@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+}
+.base {
+    background-color:#fff;
+}
+header {
+    background: #7d3cff;
+    color: white;
+    display: flex;
+    justify-content: center;   
+}
+header H1 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;    
+}
+.social {
+    background: #fceed1;
+    color: #7d3cff;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    
+}
+.social a {
+    font-family: 'Raleway',sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;    
+}
+.main_block {
+    display: flex;
+}
+.main_block img{
+    width: 300px;
+    height: 370px;
+    margin-top: 180px;
+    margin-left: 105px;
+    border-style: solid;
+    margin-bottom: 200px;
+}
+.main_block h1 {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 34px;
+    color: #B1B1B1;
+    padding-top: 230px;
+    padding-left: 120px;
+    width: auto;
+}
+.main_block p {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170.9%;
+    letter-spacing: 0.04em;
+    padding-top: 12px;
+    padding-left: 120px;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.text {
+    display: flex;
+    flex-direction: column; 
+}
+.second_block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 320px;
+}
+.text2 p {
+    font-family: 'Nunito Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color:  #7d3cff;
+    display: flex;
+    flex-direction: column;    
+}
+.text2 h1 {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 34px;
+    color: #000000;
+}
+.last_block {
+    display: flex;
+    justify-content:space-between;
+}
+.happy {
+    display: flex;
+    flex-direction: column;
+    padding-left: 105px;
+    padding-top: 24px;
+}
+.sad {
+    display: flex;
+    flex-direction: column;
+    padding-right: 105px;
+    padding-top: 24px;
+}
+h3 {
+    font-family: 'Nunito Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color:  #7d3cff;
+    padding-bottom: 8px;
+}
+.happy h1 {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 34px;
+    color: #B1B1B1;
+    padding-bottom: 48px;
+}
+.sad h1 {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 34px;
+    color: #B1B1B1;
+    padding-bottom: 48px;
+}
+#container {
+    display: flex;
+    flex-direction:row;
+    
+}
+#container img {
+    padding-right: 50px;;
+}
+#container p {
+    padding: 50px;
+ 
+}
+
+@media screen and (max-width: 414px){
+    .hr-line {
+        width: 414px;
+    }
+    header{
+        padding-right: 45px;
+    }
+    .base {
+        width: 414px;
+    }
+    .social {
+        width: 414px; 
+        height: auto;
+        margin-right: 150px;  
+    }
+    .social a {
+        padding: 10px;
+        font-size: 18px
+    }
+    .main_block img {
+        width: 200px;
+        height: 270px;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-bottom: 2px;      
+    }
+    .main_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .text h1 {
+        padding-top: 20px;
+        font-size: 30px;
+        padding-left: 120px;
+    }
+    .text p {
+        font-size: 16px;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .last_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .sad {
+        padding-left: 105px;
+    }
+    h1 {
+        padding-left: 55px;
+    }
+    h3 {
+        padding-left: 85px;
+    }
+    .last_block img {
+        padding-right: 200px;
+    }
+    .text2{
+        padding-left: 28px;
+    }
+    .text2 h1 {
+        padding-top: 8px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
